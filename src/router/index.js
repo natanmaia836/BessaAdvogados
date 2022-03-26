@@ -27,6 +27,27 @@ const routes = [
     name: 'Contato',
     component: () => import(/* webpackChunkName: "AreasDeAtuacao" */ '../views/Contato.vue')
     },
+    {
+      path: '/Civel',
+      name: 'Civel',
+      component: () => import(/* webpackChunkName: "Civel" */ '../views/Civel.vue')
+      },
+      {
+        path: '/Contratual',
+        name: 'Contratual',
+        component: () => import(/* webpackChunkName: "Contratual" */ '../views/Contratual.vue')
+        },
+        {
+          path: '/Imobiliario',
+          name: 'Imobiliario',
+          component: () => import(/* webpackChunkName: "Imobiliario" */ '../views/Imobiliario.vue')
+          },
+          {
+            path: '/Familia',
+            name: 'Familia',
+            component: () => import(/* webpackChunkName: "Familia" */ '../views/Familia.vue')
+            },
+    
 ]
 
 const router = createRouter({

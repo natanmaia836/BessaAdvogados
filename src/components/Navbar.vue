@@ -7,7 +7,7 @@
     <router-link to="/">Home</router-link> 
     <router-link to="/OEscritorio">O Escritório</router-link> 
     <router-link to="/Equipe">Equipe</router-link> 
-    <router-link to="/AreasDeAtuacao">Areas de Atuação</router-link> 
+    <router-link to="/AreasDeAtuacao">Áreas de Atuação</router-link> 
     <router-link to="/Contato">Contato</router-link> 
   </div>
    <div class="header-contact">

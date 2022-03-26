@@ -38,6 +38,13 @@
     <div class="icone-contratual"></div>
     <div class="icone-imobiliario"></div>
     <div class="icone-aa"></div>
+    <div id="links">
+    <router-link to="/Civel" id="teste">Cível</router-link> 
+    <router-link to="/Contratual" id="teste2">Contratual</router-link> 
+    <router-link to="/Imobiliario" id="teste3">Imobilíario</router-link> 
+    <router-link to="/Familia" id="teste4">Família e Sucessões</router-link> 
+    </div>
+    <router-view/>
   </div>
   </div>
 </template>
@@ -145,13 +152,65 @@ li {
   position: absolute;
 }
 
+#links {
+  height: 20px;
+  width: 60%;
+  position: absolute;
+  left: 212px;
+  top: 156px;
+  background-color: transparent;
+}
+
+#links a{
+    color: #777474;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 26px;
+    font-weight: 500;
+    height: 60px;
+    margin-left: 55px;
+    
+   
+}
+
+
+#links a:hover {
+    color: #0f4e8c;
+}
+
+#teste {
+  right: 990px;
+  position: absolute;
+}
+
+#teste2 {
+  right: 655px;
+  padding-right: 25px;
+  position: absolute;
+}
+
+#teste3 {
+  right: 379px;
+  width: 139px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+#teste4 {
+  right: 49px;
+  width: 15%;
+  padding-left: 12px;
+  position: absolute;
+}
+
+
+
 .icone-civel{
   height: 250px;
   width: 40%;
   background-image: url(/img/Civel-ico.PNG);
   background-repeat: no-repeat;
   margin-left: 182px;
-    cursor: pointer;
 }
 
 .icone-contratual{
@@ -161,7 +220,6 @@ li {
   background-repeat: no-repeat;
   margin-left: 10px;
   margin-top: -3px;
-    cursor: pointer;
 }
 
 .icone-imobiliario{
@@ -180,7 +238,6 @@ li {
   background-repeat: no-repeat;
   position: absolute;
   margin-left: 1053px;
-  cursor: pointer;
 }
 
 </style>
